@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register User</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="regform"><h1>Register Form</h1></div>
+    <div class="main">
+      <form action="/register" method="POST">
+        <div id="name">
+          <h2 class="name">Name</h2>
+          <input
+            type="text"
+            class="firstname"
+            name="firstname"
+            placeholder="firstname"
+          />
+          <input
+            type="text"
+            class="lastname"
+            name="lastname"
+            placeholder="lastname"
+          />
+        </div>
+        <h2 class="Age">Age</h2>
+        <input type="text" class="ageI" name="age" />
+        <h2 class="Gender">Gender</h2>
+        <select name="gender" class="GenderS">
+          <option value="Male">Male</option>
+          <option value="Fe-Male">Fe-Male</option>
+          <option value="Other">Other</option>
+        </select>
+        <h2 class="E-mail">E-Mail</h2>
+        <input
+          type="text"
+          class="email"
+          name="email"
+          placeholder="e.g. ZZZZ@gmail.com"
+        />
+        <h2 class="phone">Phone</h2>
+        <input
+          type="text"
+          class="number"
+          placeholder="Phone number"
+          name="phone"
+        />
+        <h2 class="password">Password</h2>
+        <input
+          type="password"
+          class="pass1"
+          name="password"
+          placeholder="Enter Password"
+        />
+        <input
+          type="password"
+          class="pass2"
+          name="passwordC"
+          placeholder="Re-enter Password"
+        />
+        <br />
+        {{! <p class="condition">
+          <input type="checkbox" id="terms" name="" />I accept the terms and
+          conditions
+          <br /><br />
+        </p> }}
+        <input type="submit" name="register" class="btn" value="register" />
+      </form>
+    </div>
+  </body>
+</html>

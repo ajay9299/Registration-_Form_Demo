@@ -1,0 +1,201 @@
+body {
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.regform {
+  width: 800px;
+  background-color: (211, 211, 211);
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+  background-color: rgb(47, 79, 79);
+  width: 800px;
+  margin: auto;
+}
+
+form {
+  padding: 10px;
+}
+
+#name {
+  width: 100%;
+  height: 100px;
+}
+
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -29px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.lastname {
+  position: relative;
+  left: 200px;
+  top: -29px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.Age {
+  margin-left: 25px;
+  margin-top: -35px;
+  width: 125px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.ageI {
+  position: relative;
+  left: 200px;
+  top: -29px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.Gender {
+  margin-top: -7px;
+  margin-left: 25px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.GenderS {
+  position: relative;
+  left: 200px;
+  top: -23px;
+  border-radius: 6px;
+  height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.E-mail {
+  margin-left: 25px;
+  margin-top: 8px;
+  width: 125px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.email {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.phone {
+  margin-left: 25px;
+  margin-top: 8px;
+  width: 125px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.phoneS {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  height: 32px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.number {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.password {
+  margin-top: 8px;
+  margin-left: 25px;
+  width: 125px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pass1 {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.pass2 {
+  position: relative;
+  left: 200px;
+  top: -30px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.condition {
+  color: white;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: red;
+  border-radius: 6px;
+  display: block;
+  margin: 20px 0px 0px 20px;
+  color: white;
+  border: 2px solid;
+  padding: 12px 120px;
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: green;
+}
